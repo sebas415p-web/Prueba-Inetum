@@ -1,0 +1,26 @@
+# ── API ──────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+
+# ── LLM (llamada directa via requests, sin librería groq)
+requests==2.31.0
+
+# ── Embeddings & Reranker ────────────────────────
+sentence-transformers==2.7.0
+
+# ── Vector Store ─────────────────────────────────
+faiss-cpu==1.8.0
+
+# ── LangChain ────────────────────────────────────
+langchain==0.1.20
+langchain-community==0.0.38
+
+# ── Scraping ─────────────────────────────────────
+beautifulsoup4==4.12.3
+
+# ── Config ───────────────────────────────────────
+python-dotenv==1.0.1
+
+# ── Streamlit UI ──────────────────────────────────────────────
+streamlit==1.35.0
